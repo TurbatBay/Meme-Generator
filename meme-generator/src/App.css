@@ -1,0 +1,70 @@
+/* Global CSS */
+* {
+  box-sizing: border-box;
+
+  margin: auto;
+  font-family: "Karla", sans-serif;
+}
+section {
+  margin-bottom: 40px;
+}
+
+/* Header section here */
+
+.header-container {
+  max-width: 550px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+
+.header-logo-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+.header-logo {
+  width: 2rem;
+  margin-right: 10px;
+}
+
+/* Main section start here */
+
+.main-container {
+  max-width: 477px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.forms {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.input {
+  width: 230px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.button {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  width: 477px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.form--image {
+  max-width: 477px;
+}
